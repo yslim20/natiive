@@ -1,5 +1,6 @@
 /* ------------------------Menu------------------------------ */
 body {
+  font-family: 'Raleway', sans-serif;
   display: flex;
   flex-wrap: wrap;
   background-color: black;
@@ -75,3 +76,129 @@ a {
 }
 
 /* --------------------------Menu End------------------------------ */
+/* ------------------------------Quiz Start----------------------------------- */
+.quiz-container
+{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.quiz-holder
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.quiz-heading-text
+{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.quiz-question-text
+{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.qui-question-holder
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-1-1
+{
+    background-color: #FDDE03;
+}
+
+.line-2-1
+{
+    max-width: 50%;
+    background-color: #FDDE03;
+}
+
+.quiz-answer
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+
+}
+
+#true1
+{
+    width: 15%;
+    max-width: 15%;
+    height: 60px;
+    background-color:transparent;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+
+}
+
+#false1
+{
+    width: 15%;
+    max-width: 15%;
+    height: 60px;
+    background-color:transparent;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+}
+
+#answer-1
+{
+    display: flex;
+    justify-content: center;
+}
+.answer-holder
+{
+    width: 32.2%;
+    margin-bottom: 5%;
+}
+
+#answer-text-1
+{
+
+}
+
+.answer-text-1-class
+{
+    color: white;
+}
+
+.quiz-button
+{padding: 5%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.button-quiz
+{
+    width: 10px;
+    height: 17px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #666666;
+}
+
+
+/* -------------------------------Quiz End---------------------------------- */
