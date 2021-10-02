@@ -5,8 +5,6 @@ $(document).ready(function(){
   correct = $(".true");
   wrong = $(".false")
   answerBox = $("#answer-text")
-  leftArrow = $(".left-arrow")
-  leftArrowImg = $(".left-arrow-img")
 
   showAnswer()
 
