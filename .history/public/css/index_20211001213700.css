@@ -99,10 +99,12 @@ a {
 
 .arrow > img{
   max-width: 60px; height: auto;
+  transition: all 0.3s;
 }
 
 .arrow:hover .arrow-img{
-  filter:drop-shadow(rgba(255, 255, 255, 0.24) 0px 3px 8px); 
+  filter:drop-shadow(rgba(255, 255, 255, 0.24) 0px 3px 8px);
+  
 }
 
 
