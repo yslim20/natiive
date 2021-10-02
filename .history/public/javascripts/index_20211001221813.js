@@ -5,10 +5,11 @@ $(document).ready(function(){
   correct = $(".true");
   wrong = $(".false")
   answerBox = $("#answer-text")
-  leftArrow = $(".left-arrow")
-  leftArrowImg = $(".left-arrow-img")
+  arrow = $(".arrow")
+  arrowImg = $(".arrow-img")
 
   showAnswer()
+  clickArrow()
 
 })
 
@@ -28,3 +29,17 @@ function showAnswer()
   })
 }
 
+// ============ ARROW ============
+
+function clickArrow()
+{
+  arrow.keydown(function()
+  {
+    arrowImg.css("opacity", 0.5)
+  })
+
+  arrow.keyup(function()
+  {
+    arrowImg.css("opacity", 1)
+  })
+}

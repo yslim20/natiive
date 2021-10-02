@@ -9,6 +9,7 @@ $(document).ready(function(){
   leftArrowImg = $(".left-arrow-img")
 
   showAnswer()
+  clickArrow()
 
 })
 
@@ -28,3 +29,17 @@ function showAnswer()
   })
 }
 
+// ============ ARROW ============
+
+function clickArrow()
+{
+  leftArrow.key(function()
+  {
+    leftArrowImg.css("opacity", 0.5)
+  })
+
+  leftArrow.mouseout(function()
+  {
+    leftArrowImg.css("opacity", 1)
+  })
+}

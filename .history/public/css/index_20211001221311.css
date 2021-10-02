@@ -102,8 +102,11 @@ a {
 }
 
 .arrow:hover .arrow-img{
-  transition: all 0.3s ease-in-out;
-  filter: drop-shadow(rgba(255, 255, 255, 0.24) 0px 3px 8px);  
+  /* filter:drop-shadow(rgba(255, 255, 255, 0.24) 0px 3px 8px);  */
+  -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }
 
 .quiz-inner-container {

@@ -101,10 +101,10 @@ a {
   max-width: 60px; height: auto;
 }
 
-.arrow:hover .arrow-img{
-  transition: all 0.3s ease-in-out;
+/* .arrow:hover .arrow-img{
+  transition: drop-shadow 0.3s ease-in-out;
   filter: drop-shadow(rgba(255, 255, 255, 0.24) 0px 3px 8px);  
-}
+} */
 
 .quiz-inner-container {
   display: flex;

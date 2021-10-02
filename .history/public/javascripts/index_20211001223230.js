@@ -9,6 +9,7 @@ $(document).ready(function(){
   leftArrowImg = $(".left-arrow-img")
 
   showAnswer()
+  clickArrow()
 
 })
 

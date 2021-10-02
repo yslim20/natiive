@@ -102,7 +102,7 @@ a {
 }
 
 .arrow:hover .arrow-img{
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s;
   filter: drop-shadow(rgba(255, 255, 255, 0.24) 0px 3px 8px);  
 }
 
