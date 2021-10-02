@@ -76,7 +76,7 @@ a {
 
 /* --------------------------Menu End------------------------------ */
 /* ------------------------------Quiz 1 Start----------------------------------- */
-#quiz-container {
+.quiz-container {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -84,33 +84,10 @@ a {
 }
 
 .arrow-holder {
-  display: flex;
-  flex-grow: 1;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 3%;
+
 }
 
-.arrow {
-  max-width: 80%; 
-  height: auto;
-}
-
-.arrow > img{
-  max-width: 60px; height: auto;
-}
-
-.shadow {
-  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
-}
-
-.quiz-inner-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-}
+.quiz-inner-container
 
 .quiz-holder {
   display: flex;

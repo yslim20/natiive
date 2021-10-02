@@ -76,36 +76,7 @@ a {
 
 /* --------------------------Menu End------------------------------ */
 /* ------------------------------Quiz 1 Start----------------------------------- */
-#quiz-container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 100%;
-}
-
-.arrow-holder {
-  display: flex;
-  flex-grow: 1;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 3%;
-}
-
-.arrow {
-  max-width: 80%; 
-  height: auto;
-}
-
-.arrow > img{
-  max-width: 60px; height: auto;
-}
-
-.shadow {
-  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
-}
-
-.quiz-inner-container {
+.quiz-container {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -130,7 +101,6 @@ a {
 .quiz-question-text {
   font-weight: 700;
   font-size: 60px;
-  padding: 0 0.25em;
 }
 
 .qui-question-holder {
@@ -158,7 +128,7 @@ a {
   justify-content: center;
 }
 
-#true {
+#true1 {
   width: 15%;
   max-width: 15%;
   height: 60px;
@@ -169,7 +139,7 @@ a {
   color: white;
 }
 
-#false {
+#false1 {
   width: 15%;
   max-width: 15%;
   height: 60px;
@@ -194,7 +164,6 @@ a {
 
 .answer-text-1-class {
   color: white;
-  line-height: 1.75em;
 }
 
 .quiz-button {
@@ -210,10 +179,6 @@ a {
   border-radius: 50%;
   border-color: transparent;
   background-color: #666666;
-}
-
-button.select {
-  background-color: #999;
 }
 
 /* -------------------------------Quiz 1 End---------------------------------- */
@@ -329,7 +294,7 @@ button.select {
 }
 
 .display{
-  display:block;
+  display:block
 }
 
 /* -------------------------------Quiz 2 End---------------------------------- */

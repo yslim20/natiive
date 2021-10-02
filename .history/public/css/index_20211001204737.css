@@ -89,21 +89,10 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 3%;
+  margin-left: 3%;
 }
 
-.arrow {
-  max-width: 80%; 
-  height: auto;
-}
-
-.arrow > img{
-  max-width: 60px; height: auto;
-}
-
-.shadow {
-  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
-}
+.
 
 .quiz-inner-container {
   display: flex;

@@ -101,10 +101,6 @@ a {
   max-width: 60px; height: auto;
 }
 
-.shadow {
-  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
-}
-
 .quiz-inner-container {
   display: flex;
   flex-direction: column;

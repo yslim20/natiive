@@ -93,16 +93,7 @@ a {
 }
 
 .arrow {
-  max-width: 80%; 
-  height: auto;
-}
-
-.arrow > img{
-  max-width: 60px; height: auto;
-}
-
-.shadow {
-  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+  width: 80%;
 }
 
 .quiz-inner-container {
