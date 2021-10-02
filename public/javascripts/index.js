@@ -1,19 +1,20 @@
-// blank
+
 $(document).ready(function(){
   
   hide = $(".hide");
   correct = $(".true");
   wrong = $(".false")
   answerBox = $("#answer-text")
-  leftArrow = $(".left-arrow")
-  rightArrow = $(".right-arrow")
+  arrow = $(".arrow")
+  arrowImg = $(".arrow-img")
 
   showAnswer()
+  clickArrow()
 
 })
 
 
-// ============ QUIZ 1 ============
+// ============ QUIZ ============
 
 function showAnswer()
 { 
@@ -28,16 +29,17 @@ function showAnswer()
   })
 }
 
-function goToPrevious()
+// ============ ARROW ============
+
+function clickArrow()
 {
-  leftArrow.on("click", function()
+  arrow.keydown(function()
   {
-    
+    arrowImg.addClass("shadow")
   })
 
-}
-
-function goToNext()
-{
-
+  arrow.keyup(function()
+  {
+    arrowImg.removeClass("shadow")
+  })
 }
