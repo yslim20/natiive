@@ -176,31 +176,17 @@ a.highlight {
     margin-bottom: 50px;
   }
   .territories > a {
-    font-size: 26px;
+    font-size: 25px;
   }
 }
 @media only screen and (min-width:993px){
-  body{
+  body {
     justify-content: center;
   }
-  .container {
+  .container{
     display: flex;
     justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-  }
-  .first-head{
-    justify-content: left;
-    font-size: 38px;
-  }
-
-  .territories {
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-bottom: 50px;
-  }
-  .territories > a {
-    font-size: 26px;
+    margin-left: 150px;
+    margin-top: 50px;
   }
 }

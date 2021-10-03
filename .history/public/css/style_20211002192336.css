@@ -176,7 +176,7 @@ a.highlight {
     margin-bottom: 50px;
   }
   .territories > a {
-    font-size: 26px;
+    font-size: 30px;
   }
 }
 @media only screen and (min-width:993px){
@@ -186,12 +186,13 @@ a.highlight {
   .container {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 10%;
   }
   .first-head{
-    justify-content: left;
+    justify-content: center;
     font-size: 38px;
   }
 

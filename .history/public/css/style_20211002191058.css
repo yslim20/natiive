@@ -97,40 +97,17 @@ a.highlight {
   .container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-  }
-  .first-head{
-    font-size: 20px;
-  }
-  .mapcont {
-    flex-direction: column;
-  }
-  .territories {
-    margin-top: 10%;
-    margin-left: 0;
-    margin-bottom: 50px;
-  }
-  .territories > a {
-    font-size: 16px;
   }
 
 }
 @media only screen and (min-width:429px) and (max-width: 992px) {
-  /* body {
+  body {
     justify-content: center;
   }
   .container {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
   }
-
   .mapcont {
     flex-direction: column;
   }
@@ -152,55 +129,18 @@ a.highlight {
 
   .infocont {
     max-width: 700px;
-  } */
-  body{
-    justify-content: center;
-  }
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-  }
-  .first-head{
-    font-size: 35px;
-  }
-  .mapcont {
-    flex-direction: column;
-  }
-  .territories {
-    margin-top: 10%;
-    margin-left: 0;
-    margin-bottom: 50px;
-  }
-  .territories > a {
-    font-size: 26px;
   }
 }
 @media only screen and (min-width:993px){
-  body{
+  body {
     justify-content: center;
-  }
-  .container {
-    display: flex;
-    justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-  }
-  .first-head{
-    justify-content: left;
-    font-size: 38px;
   }
 
-  .territories {
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-bottom: 50px;
   }
-  .territories > a {
-    font-size: 26px;
+  .container{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 50px;
   }
 }
