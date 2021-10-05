@@ -283,10 +283,6 @@ button.select {
   }
 
   /* ================= QUIZ PART ================= */
-  .quiz-heading-text {
-    font-size:32px;
-  }
-  
   .quiz-question-text{
     font-size: 24px;
   }
@@ -311,10 +307,6 @@ button.select {
     width: 100%;
   }
 
-  .answer-text-1-class {
-    font-size: 12px;
-  }
-
   .answer-bttn {
     width: 40%;
     max-width: 40%;
@@ -334,13 +326,8 @@ button.select {
 }
 
 @media only screen and (min-width:429px) and (max-width: 992px) {
-  
-  .quiz-heading-text {
-    font-size: 40px;
-  }
-  
   .quiz-question-text{
-    font-size: 30px;
+    font-size: 32px;
     max-width: 90%;
   }
 
@@ -358,14 +345,10 @@ button.select {
     width: 80%;
   }
 
-  .answer-text-1-class {
-    font-size: 14px;
-  }
-
   .answer-bttn {
     width: 40%;
     max-width: 40%;
-    height: 50px;
+    height: 60px;
   }
   
   .button-quiz {

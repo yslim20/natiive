@@ -283,10 +283,6 @@ button.select {
   }
 
   /* ================= QUIZ PART ================= */
-  .quiz-heading-text {
-    font-size:32px;
-  }
-  
   .quiz-question-text{
     font-size: 24px;
   }
@@ -334,13 +330,8 @@ button.select {
 }
 
 @media only screen and (min-width:429px) and (max-width: 992px) {
-  
-  .quiz-heading-text {
-    font-size: 40px;
-  }
-  
   .quiz-question-text{
-    font-size: 30px;
+    font-size: px;
     max-width: 90%;
   }
 
