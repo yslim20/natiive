@@ -82,15 +82,17 @@ a.highlight {
   color: white;
   display: flex;
   font-size: 20px;
+  margin-top: 10px;
 }
 
-.languages {
+.cities {
   margin-right: 60px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
-
-.para {
+.para > p {
   color: white;
+  font-size: 20px;
+  margin-bottom: 100px;
 }
 
 /* =======RESPONSIVE LAYOUT======= */
