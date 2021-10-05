@@ -1,214 +1,3 @@
-/* body {
-  display: flex;
-  flex-wrap: wrap;
-  background-color: black;
-  background-image: url(../Img/image-1.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  font-family: "Raleway", sans-serif;
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-}
-.mapimg {
-  width: 100%;
-  height: 100%;
-}
-.first-head {
-  background-color: #fdde03;
-  font-weight: bold;
-  font-size: 37px;
-  padding: 15px;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-  max-width: 800px;
-
-  align-items: center;
-  max-height: 50px;
-}
-
-.mapcont {
-  display: flex;
-}
-
-.territories {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 228px;
-  height: 300px;
-  margin-left: 50px;
-  margin-top: 10px;
-  padding-left: 30px;
-  border-left: #fdde03 solid 4px;
-}
-
-.territories > a {
-  color: white;
-  text-decoration: none;
-  font-size: 27px;
-} */
-
- /* ========== MUSQUEAM PAGE============ */
-
-/* .terri {
-  font-weight: bold;
-}
-
-a.highlight {
-  color: #fdde03;
-}
-
-.infocont {
-  max-width: 950px;
-  margin-top: 50px;
-}
-
-.pronoun {
-  font-size: 24px;
-  color: #fdde03;
-}
-
-.title {
-  color: white;
-  font-size: 50px;
-}
-
-.lists {
-  color: white;
-  display: flex;
-  font-size: 20px;
-}
-
-.languages {
-  margin-right: 60px;
-  margin-bottom: 30px;
-}
-
-.para {
-  color: white;
-} */
-
- /* =======RESPONSIVE LAYOUT======= */
-/* @media only screen and (max-width:428px){
-  body{
-    justify-content: center;
-  }
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-  }
-  .first-head{
-    font-size: 20px;
-  }
-  .mapcont {
-    flex-direction: column;
-  }
-  .territories {
-    margin-top: 10%;
-    margin-left: 0;
-    margin-bottom: 50px;
-  }
-  .territories > a {
-    font-size: 16px;
-  }
-
-}
-@media only screen and (min-width:429px) and (max-width: 992px) {
-  body {
-    justify-content: center;
-  }
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-  }
-
-  .mapcont {
-    flex-direction: column;
-  }
-
-  .first-head {
-    font-size: 30px;
-    width: 500px;
-  }
-
-  .mapimg {
-    width: 80%;
-  }
-
-  .territories {
-    margin-top: 40px;
-    margin-left: 0;
-    margin-bottom: 50px;
-  }
-
-  .infocont {
-    max-width: 700px;
-  }
-  body{
-    justify-content: center;
-  }
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-  }
-  .first-head{
-    font-size: 35px;
-  }
-  .mapcont {
-    flex-direction: column;
-  }
-  .territories {
-    margin-top: 10%;
-    margin-left: 0;
-    margin-bottom: 50px;
-  }
-  .territories > a {
-    font-size: 26px;
-  }
-}
-@media only screen and (min-width:993px){
-  body{
-    justify-content: center;
-  }
-  .container {
-    display: flex;
-    justify-content: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-  }
-  .first-head{
-    justify-content: left;
-    font-size: 38px;
-  }
-
-  .territories {
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-bottom: 50px;
-  }
-  .territories > a {
-    font-size: 26px;
-  }
-  
-}  */
-
 /* ------------------------Style------------------------------ */
 /* body {
   display: flex;
@@ -233,12 +22,11 @@ a.highlight {
   background-color: #fdde03;
   font-weight: bold;
   font-size: 37px;
-  padding: 15px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
   max-width: 800px;
-
   align-items: center;
   max-height: 50px;
 }
@@ -308,7 +96,8 @@ a.highlight {
 /* =======RESPONSIVE LAYOUT======= */
 @media only screen and (max-width:428px){
   body{
-    justify-content: center;
+    margin: 0;
+    /* justify-content: center; */
   }
   .container {
     display: flex;
@@ -316,10 +105,17 @@ a.highlight {
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
   }
   .first-head{
     font-size: 20px;
+  }
+  .infocont{
+    margin-left:10%;
+  }
+  .infocont2{
+    margin-top: 50px;
+    margin-left: 0;
   }
   .mapcont {
     flex-direction: column;
@@ -332,45 +128,14 @@ a.highlight {
   .territories > a {
     font-size: 16px;
   }
+  .para{
+    margin-right: 10%;
+  }
 
 }
-@media only screen and (min-width:429px) and (max-width: 992px) {
-  /* body {
-    justify-content: center;
-  }
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 10%;
-  }
-
-  .mapcont {
-    flex-direction: column;
-  }
-
-  .first-head {
-    font-size: 30px;
-    width: 500px;
-  }
-
-  .mapimg {
-    width: 80%;
-  }
-
-  .territories {
-    margin-top: 40px;
-    margin-left: 0;
-    margin-bottom: 50px;
-  }
-
-  .infocont {
-    max-width: 700px;
-  } */
+@media only screen and (min-width:429px) and (max-width: 1024px) {
   body{
-    justify-content: center;
+    margin: 0;
   }
   .container {
     display: flex;
@@ -378,10 +143,18 @@ a.highlight {
     align-items: center;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
   }
-  .first-head{
-    font-size: 35px;
+  .first-head > p{
+    font-size: 27px;
+    padding: 15px;
+  }
+  .infocont{
+    margin-left:10%;
+  }
+  .infocont2{
+    margin-top: 50px;
+    margin-left: 0;
   }
   .mapcont {
     flex-direction: column;
@@ -394,21 +167,31 @@ a.highlight {
   .territories > a {
     font-size: 26px;
   }
+  .para{
+    margin-right: 10%;
+  }
 }
-@media only screen and (min-width:993px){
+@media only screen and (min-width:1025px){
   body{
-    justify-content: center;
+    margin: 0;
   }
   .container {
     display: flex;
     justify-content: center;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 5%;
   }
   .first-head{
     justify-content: left;
     font-size: 38px;
+  }
+  .infocont{
+    margin-left:10%;
+  }
+  .infocont2{
+    margin-top: 50px;
+    margin-left: 0;
   }
 
   .territories {
@@ -419,7 +202,6 @@ a.highlight {
   .territories > a {
     font-size: 26px;
   }
-  
 }
 
 /* ------------------------Style end------------------------------ */
