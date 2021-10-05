@@ -779,4 +779,12 @@ button.select {
   background-color: #666666;
 }
 
+#see-results {
+  text-decoration: underline;
+}
+
+#see-results:hover {
+  text-decoration: underline;
+  color: #fdde03;
+}
 /* -------------------------------Quiz 5 End---------------------------------- */
