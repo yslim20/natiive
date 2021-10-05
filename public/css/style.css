@@ -50,9 +50,9 @@
   color: white;
   text-decoration: none;
   font-size: 27px;
-}
+} */
 
-/*========== MUSQUEAM PAGE============ */
+ /* ========== MUSQUEAM PAGE============ */
 
 /* .terri {
   font-weight: bold;
@@ -90,10 +90,10 @@ a.highlight {
 
 .para {
   color: white;
-}
+} */
 
-/* =======RESPONSIVE LAYOUT======= */
-@media only screen and (max-width:428px){
+ /* =======RESPONSIVE LAYOUT======= */
+/* @media only screen and (max-width:428px){
   body{
     justify-content: center;
   }
@@ -121,8 +121,8 @@ a.highlight {
   }
 
 }
-@media only screen and (min-width:429px) and (max-width: 992px) { */
-  /* body {
+@media only screen and (min-width:429px) and (max-width: 992px) {
+  body {
     justify-content: center;
   }
   .container {
@@ -155,7 +155,7 @@ a.highlight {
 
   .infocont {
     max-width: 700px;
-  } */
+  }
   body{
     justify-content: center;
   }
@@ -207,4 +207,4 @@ a.highlight {
     font-size: 26px;
   }
   
-} */
+}  */
