@@ -1,11 +1,11 @@
-body {
+/* body {
   display: flex;
   flex-wrap: wrap;
   background-color: black;
   background-image: url(../Img/image-1.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .container {
@@ -54,7 +54,7 @@ body {
 
 /*========== MUSQUEAM PAGE============ */
 
-.terri {
+/* .terri {
   font-weight: bold;
 }
 
@@ -121,7 +121,7 @@ a.highlight {
   }
 
 }
-@media only screen and (min-width:429px) and (max-width: 992px) {
+@media only screen and (min-width:429px) and (max-width: 992px) { */
   /* body {
     justify-content: center;
   }
@@ -207,4 +207,4 @@ a.highlight {
     font-size: 26px;
   }
   
-}
+} */
