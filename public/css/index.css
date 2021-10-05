@@ -24,7 +24,7 @@
 }
 
 /* ===== media queries ============================== */
-@media only screen and (max-width:549px){
+@media only screen and (max-width: 549px) {
   .menu-category {
     flex: 1;
   }
@@ -76,10 +76,8 @@
     font-size: 20px;
     margin-bottom: 25px;
   }
-
-
 }
-@media only screen and (min-width:550px) and (max-width: 992px) {
+@media only screen and (min-width: 550px) and (max-width: 992px) {
   /* ===== menu panel =============================== */
   .menu-category {
     flex: 1;
@@ -87,7 +85,7 @@
   #navigation {
     display: none;
   }
-  
+
   #logo {
     width: 70px;
     height: 70px;
@@ -138,7 +136,7 @@
   /* ===== end menu panel =============================== */
 }
 
-@media only screen and (min-width:993px){
+@media only screen and (min-width: 993px) {
   /* ===== menu panel =============================== */
   .menu-category {
     flex: 1;
@@ -161,17 +159,19 @@
     color: #fdde03;
     font-size: 30px;
   }
-  #menuIcon, #panelCont, #close, .panelLink, #menuLinks {
+  #menuIcon,
+  #panelCont,
+  #close,
+  .panelLink,
+  #menuLinks {
     display: none;
   }
   /* ===== end menu panel =============================== */
 }
 
-
 a {
   font-family: "Raleway", sans-serif;
 }
-
 
 #menu-left {
   display: flex;
@@ -179,7 +179,6 @@ a {
   align-items: center;
   gap: 20px;
 }
-
 
 .nav-link {
   color: white;
@@ -215,17 +214,18 @@ a {
 }
 
 .arrow {
-  max-width: 80%; 
+  max-width: 80%;
   height: auto;
 }
 
-.arrow > img{
-  max-width: 60px; height: auto;
+.arrow > img {
+  max-width: 60px;
+  height: auto;
 }
 
-.arrow:hover .arrow-img{
+.arrow:hover .arrow-img {
   transition: all 0.3s ease-in-out;
-  filter: drop-shadow(rgba(255, 255, 255, 0.24) 0px 3px 8px);  
+  filter: drop-shadow(rgba(255, 255, 255, 0.24) 0px 3px 8px);
 }
 
 /* QUIZ */
@@ -321,7 +321,7 @@ a {
   border-radius: 50%;
   border-color: transparent;
   background-color: #666666;
-} 
+}
 
 button.select {
   background-color: #999;
@@ -336,8 +336,8 @@ button.select {
 /* ================= RESPONSIVE LAYOUT ================= */
 
 /* ---------------max-width:428px--------------- */
-@media only screen and (max-width:428px){
-  body{
+@media only screen and (max-width: 428px) {
+  body {
     justify-content: center;
   }
   .container {
@@ -351,10 +351,10 @@ button.select {
 
   /* ================= QUIZ PART ================= */
   .quiz-heading-text {
-    font-size:32px;
+    font-size: 32px;
   }
-  
-  .quiz-question-text{
+
+  .quiz-question-text {
     font-size: 24px;
   }
 
@@ -388,26 +388,26 @@ button.select {
     height: 35px;
     margin-bottom: 10px;
   }
-  
+
   .button-quiz {
     width: 5px;
     height: 15px;
   }
 
   /* ============ ARROW ============ */
-   .arrow > img{
-    max-width: 40px; height: auto;
+  .arrow > img {
+    max-width: 40px;
+    height: auto;
   }
 }
 
 /* ---------------max-width:992px--------------- */
-@media only screen and (min-width:429px) and (max-width: 992px) {
-  
+@media only screen and (min-width: 429px) and (max-width: 992px) {
   .quiz-heading-text {
     font-size: 40px;
   }
-  
-  .quiz-question-text{
+
+  .quiz-question-text {
     font-size: 30px;
     max-width: 90%;
   }
@@ -418,7 +418,7 @@ button.select {
 
   .answer-holder {
     width: 60%;
-  }  
+  }
 
   .quiz-answer {
     gap: 20px;
@@ -435,23 +435,22 @@ button.select {
     max-width: 40%;
     height: 50px;
   }
-  
+
   .button-quiz {
     width: 5px;
     height: 15px;
   }
 
   /* ============ ARROW ============ */
-   .arrow > img{
+  .arrow > img {
     max-width: 50px;
   }
-
 }
 
 /* ---------------min-width:993px--------------- */
 
-@media only screen and (min-width:993px){
-  .quiz-question-text{
+@media only screen and (min-width: 993px) {
+  .quiz-question-text {
     font-size: 40px;
     max-width: 90%;
   }
@@ -467,9 +466,9 @@ button.select {
     gap: 20px;
   }
 
-  .arrow > img{
+  .arrow > img {
     max-width: 60px;
-  }    
+  }
 }
 
 /* -------------------------------Quiz 5 End---------------------------------- */
@@ -477,7 +476,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   background-color: black;
-  background-image: url(../Img/image-1.png);
+  background-image: url(../Img/map-background.png);
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: sans-serif;
@@ -568,8 +567,8 @@ a.highlight {
 }
 
 /* =======RESPONSIVE LAYOUT======= */
-@media only screen and (max-width:428px){
-  body{
+@media only screen and (max-width: 428px) {
+  body {
     justify-content: center;
   }
   .container {
@@ -580,7 +579,7 @@ a.highlight {
     margin-right: 10%;
     margin-top: 10%;
   }
-  .first-head{
+  .first-head {
     font-size: 20px;
   }
   .mapcont {
@@ -594,9 +593,8 @@ a.highlight {
   .territories > a {
     font-size: 16px;
   }
-
 }
-@media only screen and (min-width:429px) and (max-width: 992px) {
+@media only screen and (min-width: 429px) and (max-width: 992px) {
   /* body {
     justify-content: center;
   }
@@ -631,7 +629,7 @@ a.highlight {
   .infocont {
     max-width: 700px;
   } */
-  body{
+  body {
     justify-content: center;
   }
   .container {
@@ -642,7 +640,7 @@ a.highlight {
     margin-right: 10%;
     margin-top: 10%;
   }
-  .first-head{
+  .first-head {
     font-size: 35px;
   }
   .mapcont {
@@ -657,8 +655,8 @@ a.highlight {
     font-size: 26px;
   }
 }
-@media only screen and (min-width:993px){
-  body{
+@media only screen and (min-width: 993px) {
+  body {
     justify-content: center;
   }
   .container {
@@ -668,7 +666,7 @@ a.highlight {
     margin-right: 10%;
     margin-top: 10%;
   }
-  .first-head{
+  .first-head {
     justify-content: left;
     font-size: 38px;
   }
@@ -681,5 +679,4 @@ a.highlight {
   .territories > a {
     font-size: 26px;
   }
-  
 }
