@@ -383,8 +383,6 @@ button.select {
 
 }
 
-/* ---------------min-width:993px--------------- */
-
 @media only screen and (min-width:993px){
   .quiz-question-text{
     font-size: 40px;

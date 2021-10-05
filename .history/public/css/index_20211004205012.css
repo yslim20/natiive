@@ -335,7 +335,7 @@ button.select {
   }
 }
 
-/* ---------------max-width:992px--------------- */
+/* ---------------max-width:428px--------------- */
 @media only screen and (min-width:429px) and (max-width: 992px) {
   
   .quiz-heading-text {
@@ -382,8 +382,6 @@ button.select {
   }
 
 }
-
-/* ---------------min-width:993px--------------- */
 
 @media only screen and (min-width:993px){
   .quiz-question-text{
