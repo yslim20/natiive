@@ -11,21 +11,21 @@ $(document).ready(function(){
 
   $("#menuIcon").click(function(){
       $("#panelCont").css('display', 'block').css('z-index', 10)
-      let menuPanel = document.createElement("div")
-      menuPanel.id = "panel"
-      $(menuPanel).css("background-color", "#353535").css('display', 'block')
-      .css('width', '300px').css('height', '100vh').css('padding', 30)
-      .css('position', 'absolute').css('top', 0).css('right', 0)
+      $('#panel').css('display', 'block')
 
-      let closeBtn = document.createElement("img")
-      closeBtn.id = "close"
-      closeBtn.src = "../Img/close.svg"
-      $(closeBtn).click(function(){
+      let background = document.createElement("div")
+      $(background).css('position', 'absolute').css('width', '100%').css('height', '100%')
+      .css('z-index', 5).css('background-color', 'rgba(0,0,0,0.75)')
+
+      $('body').append(background)
+
+      $('#close').css('position', 'absolute').css('right', 30).css('width', 25)
+
+      $('#close').click(function(){
         $("#panelCont").css('display', 'none')
+        $(background).css('display', 'none')
       })
-      $(menuPanel).append(closeBtn)
 
-      $("#panelCont").append(menuPanel)
     })
 })
 
