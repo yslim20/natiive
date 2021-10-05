@@ -24,7 +24,7 @@ body {
 }
 
 /* ===== media queries ============================== */
-@media only screen and (max-width:549px){
+@media only screen and (max-width: 549px) {
   .menu-category {
     flex: 1;
   }
@@ -76,10 +76,8 @@ body {
     font-size: 20px;
     margin-bottom: 25px;
   }
-
-
 }
-@media only screen and (min-width:550px) and (max-width: 992px) {
+@media only screen and (min-width: 550px) and (max-width: 992px) {
   /* ===== menu panel =============================== */
   .menu-category {
     flex: 1;
@@ -87,7 +85,7 @@ body {
   #navigation {
     display: none;
   }
-  
+
   #logo {
     width: 70px;
     height: 70px;
@@ -138,7 +136,7 @@ body {
   /* ===== end menu panel =============================== */
 }
 
-@media only screen and (min-width:993px){
+@media only screen and (min-width: 993px) {
   /* ===== menu panel =============================== */
   .menu-category {
     flex: 1;
@@ -161,17 +159,19 @@ body {
     color: #fdde03;
     font-size: 30px;
   }
-  #menuIcon, #panelCont, #close, .panelLink, #menuLinks {
+  #menuIcon,
+  #panelCont,
+  #close,
+  .panelLink,
+  #menuLinks {
     display: none;
   }
   /* ===== end menu panel =============================== */
 }
 
-
 a {
   font-family: "Raleway", sans-serif;
 }
-
 
 #menu-left {
   display: flex;
@@ -179,7 +179,6 @@ a {
   align-items: center;
   gap: 20px;
 }
-
 
 .nav-link {
   color: white;
@@ -215,17 +214,18 @@ a {
 }
 
 .arrow {
-  max-width: 80%; 
+  max-width: 80%;
   height: auto;
 }
 
-.arrow > img{
-  max-width: 60px; height: auto;
+.arrow > img {
+  max-width: 60px;
+  height: auto;
 }
 
-.arrow:hover .arrow-img{
+.arrow:hover .arrow-img {
   transition: all 0.3s ease-in-out;
-  filter: drop-shadow(rgba(255, 255, 255, 0.24) 0px 3px 8px);  
+  filter: drop-shadow(rgba(255, 255, 255, 0.24) 0px 3px 8px);
 }
 
 /* QUIZ */
@@ -321,7 +321,7 @@ a {
   border-radius: 50%;
   border-color: transparent;
   background-color: #666666;
-} 
+}
 
 button.select {
   background-color: #999;
@@ -336,8 +336,8 @@ button.select {
 /* ================= RESPONSIVE LAYOUT ================= */
 
 /* ---------------max-width:428px--------------- */
-@media only screen and (max-width:428px){
-  body{
+@media only screen and (max-width: 428px) {
+  body {
     justify-content: center;
   }
   .container {
@@ -351,10 +351,10 @@ button.select {
 
   /* ================= QUIZ PART ================= */
   .quiz-heading-text {
-    font-size:32px;
+    font-size: 32px;
   }
-  
-  .quiz-question-text{
+
+  .quiz-question-text {
     font-size: 24px;
   }
 
@@ -388,26 +388,26 @@ button.select {
     height: 35px;
     margin-bottom: 10px;
   }
-  
+
   .button-quiz {
     width: 5px;
     height: 15px;
   }
 
   /* ============ ARROW ============ */
-   .arrow > img{
-    max-width: 40px; height: auto;
+  .arrow > img {
+    max-width: 40px;
+    height: auto;
   }
 }
 
 /* ---------------max-width:992px--------------- */
-@media only screen and (min-width:429px) and (max-width: 992px) {
-  
+@media only screen and (min-width: 429px) and (max-width: 992px) {
   .quiz-heading-text {
     font-size: 40px;
   }
-  
-  .quiz-question-text{
+
+  .quiz-question-text {
     font-size: 30px;
     max-width: 90%;
   }
@@ -418,7 +418,7 @@ button.select {
 
   .answer-holder {
     width: 60%;
-  }  
+  }
 
   .quiz-answer {
     gap: 20px;
@@ -435,23 +435,22 @@ button.select {
     max-width: 40%;
     height: 50px;
   }
-  
+
   .button-quiz {
     width: 5px;
     height: 15px;
   }
 
   /* ============ ARROW ============ */
-   .arrow > img{
+  .arrow > img {
     max-width: 50px;
   }
-
 }
 
 /* ---------------min-width:993px--------------- */
 
-@media only screen and (min-width:993px){
-  .quiz-question-text{
+@media only screen and (min-width: 993px) {
+  .quiz-question-text {
     font-size: 40px;
     max-width: 90%;
   }
@@ -467,9 +466,218 @@ button.select {
     gap: 20px;
   }
 
-  .arrow > img{
+  .arrow > img {
     max-width: 60px;
-  }    
+  }
 }
 
 /* -------------------------------Quiz 5 End---------------------------------- */
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  background-image: url(../Img/map-background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.mapimg {
+  width: 100%;
+  height: 100%;
+}
+.first-head {
+  background-color: #fdde03;
+  font-weight: bold;
+  font-size: 37px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  max-width: 800px;
+
+  align-items: center;
+  max-height: 50px;
+}
+
+.mapcont {
+  display: flex;
+}
+
+.territories {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 228px;
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 10px;
+  padding-left: 30px;
+  border-left: #fdde03 solid 4px;
+}
+
+.territories > a {
+  color: white;
+  text-decoration: none;
+  font-size: 27px;
+}
+
+/*========== MUSQUEAM PAGE============ */
+
+.terri {
+  font-weight: bold;
+}
+
+a.highlight {
+  color: #fdde03;
+}
+
+.infocont {
+  max-width: 950px;
+  margin-top: 50px;
+}
+
+.pronoun {
+  font-size: 24px;
+  color: #fdde03;
+}
+
+.title {
+  color: white;
+  font-size: 50px;
+}
+
+.lists {
+  color: white;
+  display: flex;
+  font-size: 20px;
+}
+
+.languages {
+  margin-right: 60px;
+  margin-bottom: 30px;
+}
+
+.para {
+  color: white;
+}
+
+/* =======RESPONSIVE LAYOUT======= */
+@media only screen and (max-width: 428px) {
+  body {
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+  }
+  .first-head {
+    font-size: 20px;
+  }
+  .mapcont {
+    flex-direction: column;
+  }
+  .territories {
+    margin-top: 10%;
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+  .territories > a {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 429px) and (max-width: 992px) {
+  /* body {
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+  }
+
+  .mapcont {
+    flex-direction: column;
+  }
+
+  .first-head {
+    font-size: 30px;
+    width: 500px;
+  }
+
+  .mapimg {
+    width: 80%;
+  }
+
+  .territories {
+    margin-top: 40px;
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+
+  .infocont {
+    max-width: 700px;
+  } */
+  body {
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+  }
+  .first-head {
+    font-size: 35px;
+  }
+  .mapcont {
+    flex-direction: column;
+  }
+  .territories {
+    margin-top: 10%;
+    margin-left: 0;
+    margin-bottom: 50px;
+  }
+  .territories > a {
+    font-size: 26px;
+  }
+}
+@media only screen and (min-width: 993px) {
+  body {
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+  }
+  .first-head {
+    justify-content: left;
+    font-size: 38px;
+  }
+
+  .territories {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: 50px;
+  }
+  .territories > a {
+    font-size: 26px;
+  }
+}
