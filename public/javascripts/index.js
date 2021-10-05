@@ -5,6 +5,8 @@ $(document).ready(function(){
   correct = $(".true");
   wrong = $(".false")
   answerBox = $("#answer-text")
+  quizButton = $(".quiz-answer")
+  answerHolder = $(".answer-holder")
 
   showAnswer()
 
@@ -37,11 +39,14 @@ function showAnswer()
   correct.on("click", function()
   {
     answerBox.removeClass("hide")
+    quizButton.addClass("hide")
+    answerHolder.css("margin-bottom", 0)
   })  
 
   wrong.on("click", function()
   {
     answerBox.addClass("hide")
+    quizButton.removeClass("hide")
   })
 }
 
