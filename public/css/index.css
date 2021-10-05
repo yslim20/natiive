@@ -1,5 +1,5 @@
 /* ------------------------Menu------------------------------ */
-/* body {
+body {
   font-family: "Raleway", sans-serif;
   display: flex;
   flex-wrap: wrap;
@@ -7,7 +7,7 @@
   background-image: url(../Img/image-1.png);
   background-repeat: no-repeat;
   background-size: 100%;
-} */
+}
 
 .menu-container {
   display: flex;
@@ -472,6 +472,7 @@ button.select {
 }
 
 /* -------------------------------Quiz 5 End---------------------------------- */
+
 body {
   display: flex;
   flex-wrap: wrap;
