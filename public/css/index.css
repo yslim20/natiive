@@ -23,6 +23,36 @@ body {
   flex-wrap: wrap;
 }
 
+a {
+  font-family: "Raleway", sans-serif;
+}
+
+#logo{
+  max-width: 70px;
+  max-height: 70px;
+}
+
+
+
+.logo-holder
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+
+#menu-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+
+
 /* ===== media queries ============================== */
 @media only screen and (max-width: 549px) {
   .menu-category {
@@ -56,7 +86,8 @@ body {
   #panel {
     box-sizing: border-box;
     display: none;
-    background-color: #353535;
+    background-color: black;
+    opacity: 80%;
     width: 300px;
     height: 100vh;
     padding: 30px 30px 30px 55px;
@@ -112,7 +143,8 @@ body {
   #panel {
     box-sizing: border-box;
     display: none;
-    background-color: #353535;
+    background-color:black;
+    opacity: 80%;
     width: 500px;
     height: 100vh;
     padding: 30px 30px 30px 55px;
@@ -153,6 +185,8 @@ body {
     width: 100px;
     height: 100px;
   }
+
+
   #logo-text {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -468,6 +502,12 @@ button.select {
 
   .arrow > img {
     max-width: 60px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
