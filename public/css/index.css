@@ -86,8 +86,7 @@ a {
   #panel {
     box-sizing: border-box;
     display: none;
-    background-color: black;
-    opacity: 80%;
+    background-color: rgba(0,0,0,0.8);
     width: 300px;
     height: 100vh;
     padding: 30px 30px 30px 55px;
@@ -506,8 +505,8 @@ button.select {
 
   .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
   }
 }
 
