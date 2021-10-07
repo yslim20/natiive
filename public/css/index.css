@@ -258,7 +258,7 @@ a {
 
 .arrow:hover .arrow-img {
   transition: all 0.3s ease-in-out;
-  filter: drop-shadow(rgba(255, 255, 255, 0.24) 0px 3px 8px);
+  opacity: 0.8;
 }
 
 /* QUIZ */
@@ -334,6 +334,9 @@ a {
 .answer-holder {
   width: 50%;
   margin-bottom: 2.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .answer-text-1-class {
@@ -347,7 +350,11 @@ a {
   font-size: 24px;
   color: #000;
   font-weight: 700;
-  margin-right: 15px;
+  width: 80px;
+  text-align: center;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 5px;
 }
 
 /* BUTTON */
