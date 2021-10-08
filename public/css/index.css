@@ -9,6 +9,11 @@ body {
   background-size: 100%;
 }
 
+a
+{
+  text-decoration: none;
+}
+
 .menu-container {
   display: flex;
   padding: 5px;
