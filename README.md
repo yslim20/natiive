@@ -31,5 +31,6 @@ Web Developer, UX/UI Designer
 
 [@Youn Soo Lim](https://www.linkedin.com/in/younsoo-lim)
 [@Hyerin Cheon](https://www.linkedin.com/in/hyerin-cheon/)
+[@Ireme Wu](https://www.linkedin.com/in/irenewuu/)
 [@Kelly Menzul](https://www.linkedin.com/in/kelly-menzul-bb5235123/)
 [@Leah Ma](https://www.linkedin.com/in/leah-ma-14b7581a1//)
